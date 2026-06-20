@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  background-color: #FAF8F5;
+  color: #1A1814;
+}
+
+::selection {
+  background-color: #B8694A;
+  color: #FAF8F5;
+}
+
+/* visible keyboard focus, never removed */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #B8694A;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* thin custom scrollbar to match the hairline system */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #E5E0D8;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D9A98C;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
