@@ -20,42 +20,42 @@ const segments: Segment[] = [
     title: "Metro & Railways",
     description: "Casting Yards, Depot Development, Site Offices, Trackside Infrastructure",
     clients: "NCRTC, RVNL, Noida Metro",
-    imageUrl: "/api/placeholder/400/250", // Replace with actual image
+    imageUrl: "/img21.jpg", // Replace with actual image
   },
   {
     id: 2,
     title: "Pre-Engineered Buildings",
     description: "PEB Structures, Prefab Offices, Labour Colonies, Industrial Buildings",
     clients: "Aditya Birla, IIFL, NBCC",
-    imageUrl: "/api/placeholder/400/250",
+    imageUrl: "/img22.webp",
   },
   {
     id: 3,
     title: "Commercial Projects",
     description: "Landscaping, Site Development, Interior & Exterior Works",
     clients: "Radisson Blu, DLF, Mahagun",
-    imageUrl: "/api/placeholder/400/250",
+    imageUrl: "/img23.webp",
   },
   {
     id: 4,
     title: "Infrastructure",
     description: "Casting Yards, Earth Work, Building Construction, Road Works",
     clients: "KEC International, Afcons Infra",
-    imageUrl: "/api/placeholder/400/250",
+    imageUrl: "/img24.jpg",
   },
   {
     id: 5,
     title: "Highway Projects",
     description: "Ganga Expressway Earthwork, Grading, Road Formation",
     clients: "UPEIDA, CDS Highway",
-    imageUrl: "/api/placeholder/400/250",
+    imageUrl: "/img25.png",
   },
   {
     id: 6,
     title: "Real Estate",
     description: "Farmhouses, PEB Homes, Site Offices, Residential Infra",
     clients: "Krest Infra, Astha Infra",
-    imageUrl: "/api/placeholder/400/250",
+    imageUrl: "/img26.jpeg",
   },
 ];
 

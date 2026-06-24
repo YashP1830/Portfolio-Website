@@ -22,7 +22,7 @@ const projects: Project[] = [
     description: "A 45-storey commercial tower...",
     location: "Mumbai, India",
     year: "2024",
-    imageUrl: "/api/placeholder/400/250", // Replace with actual image path
+    imageUrl: "/img11.png", // Replace with actual image path
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const projects: Project[] = [
     description: "Construction of 6-lane highway...",
     location: "Delhi - Jaipur Corridor",
     year: "2023",
-    imageUrl: "/api/placeholder/400/250",
+    imageUrl: "/img12.jpg",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const projects: Project[] = [
     description: "Fully automated metro corridor...",
     location: "Bangalore, India",
     year: "2024",
-    imageUrl: "/api/placeholder/400/250",
+    imageUrl: "/img13.jpg",
   },
   {
     id: 4,
@@ -46,7 +46,7 @@ const projects: Project[] = [
     description: "Upgraded platforms & facilities...",
     location: "Chennai, India",
     year: "2022",
-    imageUrl: "/api/placeholder/400/250",
+    imageUrl: "/img14.jpg",
   },
   {
     id: 5,
@@ -54,7 +54,7 @@ const projects: Project[] = [
     description: "World-class airport terminal...",
     location: "Hyderabad, India",
     year: "2024",
-    imageUrl: "/api/placeholder/400/250",
+    imageUrl: "/img15.jpg",
   },
   {
     id: 6,
@@ -62,7 +62,7 @@ const projects: Project[] = [
     description: "150-MLD purification plant...",
     location: "Ahmedabad, India",
     year: "2023",
-    imageUrl: "/api/placeholder/400/250",
+    imageUrl: "/img16.jpg",
   },
 ];
 
