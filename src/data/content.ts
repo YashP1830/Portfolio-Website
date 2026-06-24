@@ -1,8 +1,11 @@
+import AboutGreenworld from "@/components/greenworld";
+import AboutGrano from "@/components/granoinfra";
+import AboutMoyo from "@/components/moyoint";
 export const profile = {
-  name: "Yash Pratap Singh",
-  role: "Founder,XYZ Enterprise",
-  tagline: "I build quiet tools for loud problems.",
-  location: "Jaipur, India",
+  name: "Kapil Kumar Sharma",
+  role: "Founder,Grano Infra,Green-World,Moyo International",
+  tagline: "Scaling infrastructure. Sustaining the planet. Shipping software.",
+  location: "Greater Noida, India",
   email: "yashpratap291@gmail.com",
   website: "https://yourcompany.com",
   linkedin: "https://linkedin.com/in/yourprofile",
@@ -11,10 +14,10 @@ export const profile = {
 };
 
 export const stats = [
-  { value: 7, suffix: "", label: "years building" },
+  { value: 20, suffix: "+", label: "years building" },
   { value: 3, suffix: "", label: "companies founded" },
-  { value: 42, suffix: "k", label: "people using Lighthouse" },
-  { value: 12, suffix: "", label: "countries lived & worked in" },
+  { value: 500, suffix: "+", label: "Projects Completed" },
+  { value: 50, suffix: "+", label: "Market Served" },
 ];
 
 export const timeline = [
@@ -48,27 +51,30 @@ export const timeline = [
   },
 ];
 
+
 export const work = [
   {
-    name: "Lighthouse Studio",
+    name: "GreenWorld",
     description:
       "Compliance and audit trails for finance teams who'd rather be doing anything else. Built so the software disappears into the work.",
-    year: "2024 — present",
-    href: "#",
+    year: "2013-present",
+    href: "https://granoinfra.com/",
+
+    
   },
   {
-    name: "Tideline",
+    name: "GranoInfra",
     description:
       "Appointment scheduling for clinics with three staff and one overworked office manager. Acquired in 2023.",
     year: "2021 — 2023",
-    href: "#",
+    href: "https://greenworldncr.com/",
   },
   {
-    name: "Field Notes",
+    name: "Moyo_International",
     description:
       "A small, slow newsletter on building things that last longer than a funding cycle. Sent monthly, read by 6,000 people.",
     year: "2020 — present",
-    href: "#",
+    href: "https://www.moyointernational.com/",
   },
 ];
 
@@ -110,8 +116,19 @@ export const writing = [
 
 export const navLinks = [
   { label: "Work", href: "#work" },
-  { label: "Timeline", href: "#timeline" },
+  { label: "Greenworld", href: "#greenworld" },
+  { label: "Grano Infra", href: "#granoinfra" },
+  { label: "Moyo", href: "#moyo" },
   { label: "About Me", href: "#philosophy" },
-  { label: "Blogs", href: "#writing" },
-  { label: "Contact Me", href: "#contact" },
 ];
+type ComponentMapType = {
+  [key: string]: React.ElementType;
+};
+
+// Create the object holding your components
+export const componentRegistry: ComponentMapType = {
+  GreenWorld:AboutGreenworld,
+  GranoInfra:AboutGrano,
+  Moyo_International:AboutMoyo
+  // Add as many as you need here...
+};
