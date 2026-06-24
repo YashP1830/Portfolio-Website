@@ -10,7 +10,11 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-40 border-b border-slate-200/50 bg-white/80 backdrop-blur-md shadow-sm transition-all duration-300">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-2 py-4 md:px-10">
+      {/* UPDATED WRAPPER: 
+        Changed max-w-7xl to max-w-[1600px] to allow the navbar to stretch much wider.
+        Adjusted padding to px-4 md:px-8 to line up nicely with the edges. 
+      */}
+      <div className="mx-auto flex w-full max-w-[1600px] items-center justify-between px-4 py-4 md:px-8">
         
         {/* LOGO - Increased font size and weight */}
         <a
@@ -91,4 +95,4 @@ export default function Header() {
       </AnimatePresence>
     </header>
   );
-}
+} 
